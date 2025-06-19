@@ -4,7 +4,7 @@ using OpenTK.Mathematics;
 using OpenTK.Windowing.Common;
 using OpenTK.Windowing.Desktop;
 
-namespace EmberstoneSummoner;
+namespace EmberstoneSummoner.Game;
 
 public class Game(GameWindowSettings gameSettings, NativeWindowSettings nativeSettings)
     : GameWindow(gameSettings, nativeSettings)
